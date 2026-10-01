@@ -1,0 +1,17 @@
+Mixture-of-Experts Simulator local build completed 2026-10-01.
+
+Tests: 52 passed (python -m pytest -q --tb=short).
+Verified implementation commit: 4939544c527f8a8905dbd1f043c5b09f1b9e2a0c
+Branch: main.
+Installed moes CLI demo: 0.907485 measured wall-clock seconds, below 5 seconds.
+Fixture outcome: 200 records, 200 attempts, 160 accepted, 40 dropped,
+40 records with drops, 40 fully dropped records, 50 boundary ties.
+All 40 planted drops found, zero false positives, zero missed planted drops.
+Evidence: evidence/acceptance.json and evidence/demo-report.md.
+
+Built a deterministic CPU-only Python CLI that parses local JSON, JSONL and CSV scores, performs top-k expert routing with stable tie-breaking and per-expert batch capacity, and renders traceable Markdown or JSON reports with provenance banners. The five subcommands include labelled 200-record synthetic fixture generation, execution, reporting, per-record route inspection and explicitly hypothetical capacity sweeps. Independent hand-computed expectations, a five-record hand-written example, adversarial tests, named errors, atomic report writes, Unicode support, complete usage and schema documentation, research lessons and the two-week real-use improvement hook are included. Real model quality, throughput, savings and real usage remain unmeasured; no network calls, GPU workloads or model calls are used.
+
+Real-use verdict: pending the required two-week window; no real-use evidence invented.
+Publishing: not performed; separate verification step owns publication.
+This completion record is committed after the verified implementation commit above
+so that the recorded hash identifies the build without a self-referential hash.
