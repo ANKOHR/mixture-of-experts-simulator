@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.moes-results.json
+demo/
+build/
+dist/
+mixture-of-experts-simulator-codex.log
+mixture-of-experts-simulator-launch.py
+mixture-of-experts-simulator-prompt.txt

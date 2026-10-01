@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mixture-of-experts-simulator"
+version = "0.1.0"
+description = "Deterministic CPU-only routing and capacity simulator"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+moes = "mixture_of_experts_simulator.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["mixture_of_experts_simulator*"]

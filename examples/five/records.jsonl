@@ -1,0 +1,6 @@
+# SYNTHETIC hand-written example; synthetic: true
+{"id":"a","scores":[9,0,0],"synthetic":true,"ground_truth":{"expert":0,"dropped":false}}
+{"id":"b","scores":[0,9,0],"synthetic":true,"ground_truth":{"expert":1,"dropped":false}}
+{"id":"c","scores":[0,0,9],"synthetic":true,"ground_truth":{"expert":2,"dropped":false}}
+{"id":"d","scores":[9,9,0],"synthetic":true,"ground_truth":{"expert":0,"dropped":true}}
+{"id":"e","scores":[0,0,9],"synthetic":true,"ground_truth":{"expert":2,"dropped":true}}

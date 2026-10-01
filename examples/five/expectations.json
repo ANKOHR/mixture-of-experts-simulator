@@ -1,0 +1,14 @@
+{
+  "synthetic": true,
+  "label": "Synthetic hand-written ground truth: first three fill one slot each; last two overflow",
+  "totals": {
+    "records": 5,
+    "attempted": 5,
+    "accepted": 3,
+    "dropped": 2,
+    "records_with_drops": 2,
+    "records_fully_dropped": 2,
+    "boundary_ties": 1
+  },
+  "dropped_ids": ["d", "e"]
+}

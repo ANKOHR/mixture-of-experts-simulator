@@ -1,0 +1,7 @@
+{
+  "experts": 3,
+  "top_k": 1,
+  "capacity": 1,
+  "reference_date": "2026-09-30",
+  "synthetic": true
+}

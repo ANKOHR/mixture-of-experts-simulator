@@ -1,0 +1,62 @@
+{
+  "acceptance_limit_seconds": 5,
+  "commands": [
+    "moes fixtures --out demo",
+    "moes run --input demo",
+    "moes report --format md"
+  ],
+  "detected_drops": 40,
+  "experts": [
+    {
+      "accepted": 40,
+      "attempted": 50,
+      "dropped": 10,
+      "expert": 0
+    },
+    {
+      "accepted": 40,
+      "attempted": 50,
+      "dropped": 10,
+      "expert": 1
+    },
+    {
+      "accepted": 40,
+      "attempted": 50,
+      "dropped": 10,
+      "expert": 2
+    },
+    {
+      "accepted": 40,
+      "attempted": 50,
+      "dropped": 10,
+      "expert": 3
+    }
+  ],
+  "false_positives": 0,
+  "inputs": [
+    {
+      "path": "config.json",
+      "sha256": "4a86ce8bc4e5ca5072332978a02a0d32a5908aa1e4c2568bed9daff5214a2037"
+    },
+    {
+      "path": "records.jsonl",
+      "sha256": "cdcc82eb771cbc276fb4839ec4fd7753850abff3f2e667c52ce363647010a641"
+    }
+  ],
+  "label": "Actual local CLI wall-clock measurement on synthetic fixtures, not model throughput or time saved",
+  "measured_demo_seconds": 0.907485,
+  "missed_planted_drops": 0,
+  "planted_drops": 40,
+  "platform": "Windows, Python 3.12.10, CPU only",
+  "synthetic": true,
+  "tests_passed": 52,
+  "totals": {
+    "accepted": 160,
+    "attempted": 200,
+    "boundary_ties": 50,
+    "dropped": 40,
+    "records": 200,
+    "records_fully_dropped": 40,
+    "records_with_drops": 40
+  }
+}
